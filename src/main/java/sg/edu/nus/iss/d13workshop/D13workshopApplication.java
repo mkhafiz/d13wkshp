@@ -27,7 +27,7 @@ public class D13workshopApplication implements ApplicationRunner {
 			dbSvc.setDataDir(new File(dataDir));
 
 			if (!dbSvc.isDataDirValid()) {
-				System.out.printf("%s does not exist, is not a directory or writeable");
+				System.out.printf("%s does not exist, is not a directory or writeable", dataDir);
 				System.exit(-1); //exit onces theres an error
 			}
 
