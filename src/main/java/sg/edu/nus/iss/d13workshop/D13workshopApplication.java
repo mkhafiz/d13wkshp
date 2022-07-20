@@ -33,7 +33,7 @@ public class D13workshopApplication implements ApplicationRunner {
 
 			System.out.printf("Using %s as data directory\n", dataDir);
 		} else {
-			dbSvc.setDataDir(new File("./data"));
+			dbSvc.setDataDir(new File("C:\\data"));
 
 		}
 	}
